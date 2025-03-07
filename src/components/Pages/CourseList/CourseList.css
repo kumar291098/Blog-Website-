@@ -1,0 +1,76 @@
+/* General styles for the course list body */
+.course-list-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title of the course list */
+  .course-list-title {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the course list */
+  .course-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styling individual course list items */
+  .course-list-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .course-list-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling the title of each course */
+  .course-list-item-title {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling the description of each course */
+  .course-list-item-description {
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling the content of each course */
+  .course-list-item-content {
+    font-size: 1em;
+    color: #34495e;
+    white-space: normal; /* Ensure content wraps normally */
+    word-wrap: break-word; /* Break words to prevent overflow */
+  }
+  /* Read More Button */
+.read-more-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .read-more-button:hover {
+    background-color: #0056b3;
+  }
